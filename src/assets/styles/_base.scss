@@ -1,0 +1,66 @@
+@import "~normalize.css";
+
+* {
+  box-sizing: border-box;
+}
+
+h1, 
+h2,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.body__burger_active {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1330px) {
+  .wrapper {
+    max-width: 1080px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .wrapper {
+    max-width: 980px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    max-width: 880px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .wrapper {
+    max-width: 640px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .wrapper {
+    max-width: 500px;
+  }
+}
